@@ -154,7 +154,8 @@ public class DonorController
 				 String msg=donorService.UpdateDonorProfile(donor);
 				 Donor d=donorService.displayDonorByID(id);
 				 HttpSession session = request.getSession();
-		          session.setAttribute("donor",d);
+		         session.setAttribute("donor",d);
+		         
 				 mv.setViewName("updatesuccess");
 				 mv.addObject("message", msg);
 			 }

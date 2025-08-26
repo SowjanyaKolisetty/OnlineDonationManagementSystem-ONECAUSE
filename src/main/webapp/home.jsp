@@ -115,7 +115,7 @@
                 <p>Connecting donors with recipients during emergencies, improving lives, and bringing hope where it's needed most.</p>
                 <div class="cta-buttons">
                     
-                    <a href="login1.html" class="btn donate-btn">Donate Now</a>
+                    <a href="login1" class="btn donate-btn">Donate Now</a>
                 </div>
             </div>
         </div>

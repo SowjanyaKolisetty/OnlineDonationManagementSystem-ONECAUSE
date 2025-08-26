@@ -191,12 +191,6 @@ public class AdminController
 	    	adminService.deletedonor(did);
 	    	return "redirect:/deletedonor"; // redirected to specific path
 	    }
-	     
-	    
-	    
-	    
-	    
-	    
 	    
 	    @GetMapping("recipientreg")
 	 	public ModelAndView recipientreg()
@@ -300,11 +294,7 @@ public class AdminController
 	        
 
 	        return mv;
-	    }
-	 	
-	 	
-	 	
-	 	
+	    } 	
 	 	
 	 	@GetMapping("updatedonationstatus")
 	     public ModelAndView updatedonationstatus()
@@ -338,9 +328,7 @@ public class AdminController
 	 	    adminService.updatetracktatus(trackingDetails, did);
 	 	    return "redirect:/updatedonationstatus";
 	 	}
-	     
-	 	
-	 	
+ 	
 	 	@GetMapping("/")
 		  public ModelAndView home()
 		  {
